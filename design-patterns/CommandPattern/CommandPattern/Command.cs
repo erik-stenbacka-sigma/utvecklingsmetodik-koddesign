@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -15,9 +14,9 @@ namespace CommandPattern
     class WebRequestCommand : Command
     {
         private String line;
-        API api;
+        IAPI api;
 
-        public WebRequestCommand(API api, String line)
+        public WebRequestCommand(IAPI api, String line)
         {
             this.line = line;
             this.api = api;
