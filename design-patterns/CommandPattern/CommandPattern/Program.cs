@@ -16,7 +16,7 @@ namespace CommandPattern
             String line;
             while ((line = Console.ReadLine()) != "") {
                 Console.WriteLine($"Fetching data for {line}");
-                var command = new WebRequestCommand(line);
+                var command = new WebRequestCommand(api, line);
                 worker.AddCommand(command);
             }
 

@@ -7,7 +7,12 @@ using System.Threading;
 
 namespace CommandPattern
 {
-    class API
+    interface IAPI
+    {
+        String getData(String id);
+    }
+
+    class API:IAPI
     {
         public String getData(String id)
         {

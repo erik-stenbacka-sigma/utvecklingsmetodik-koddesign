@@ -14,17 +14,18 @@ namespace CommandPattern
     class WebRequestCommand : Command
     {
         private String line;
+        IAPI api;
 
-        public WebRequestCommand(String line)
+        public WebRequestCommand(IAPI api, String line)
         {
             this.line = line;
+            this.api = api;
         }
 
         public void execute()
         {
-            var api = new API();
             var data1 = api.getData(line);
-            Console.WriteLine($"Got data {data1}");
+            Console.WriteLine($"Got data: {data1}");
         }
     }
 }
