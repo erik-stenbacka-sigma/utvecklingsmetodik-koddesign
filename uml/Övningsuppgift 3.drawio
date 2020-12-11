@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-11T10:31:19.816Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="j-OIpk4161gKZUSAPcTi" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-11T12:57:25.561Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="qHUSPORsj5hW6h4kK_dy" version="14.0.1" type="github">
   <diagram id="kN_DZn5AIr_JsDbxmi87" name="Page-1">
-    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -74,6 +74,11 @@
             <mxPoint y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="pPNFl-sELfXG4n1L16c5-15" value="customer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pPNFl-sELfXG4n1L16c5-5">
+          <mxGeometry x="0.5778" y="-1" relative="1" as="geometry">
+            <mxPoint x="-13" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="aZICNZuISpffWM0xBc0j-12" value="Booking" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="350" y="360" width="160" height="34" as="geometry" />
         </mxCell>
@@ -84,7 +89,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="310" y="362" />
-              <mxPoint x="310" y="246" />
+              <mxPoint x="310" y="260" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -101,7 +106,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aZICNZuISpffWM0xBc0j-16" value="BookingManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="40" y="347" width="230" height="60" as="geometry" />
+          <mxGeometry x="20" y="347" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aZICNZuISpffWM0xBc0j-18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="aZICNZuISpffWM0xBc0j-16" vertex="1">
           <mxGeometry y="26" width="230" height="8" as="geometry" />
@@ -125,8 +130,13 @@
             <mxPoint y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="pPNFl-sELfXG4n1L16c5-14" value="all flights" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pPNFl-sELfXG4n1L16c5-12">
+          <mxGeometry x="0.2778" y="1" relative="1" as="geometry">
+            <mxPoint x="3" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="aZICNZuISpffWM0xBc0j-20" value="TravelPlanner" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="40" y="201" width="230" height="60" as="geometry" />
+          <mxGeometry x="20" y="201" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aZICNZuISpffWM0xBc0j-22" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="aZICNZuISpffWM0xBc0j-20" vertex="1">
           <mxGeometry y="26" width="230" height="8" as="geometry" />
