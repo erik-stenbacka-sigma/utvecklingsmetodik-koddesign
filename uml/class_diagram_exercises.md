@@ -22,7 +22,7 @@ Alla djur kan sova och äta. Besökarna tillåts även klappa de växtätande dj
 
 ### Lösningsförslag övning 1
 
-![](exercise_1_proposal.png)
+![](class_diagram_exercise_1_proposal.png)
 
 <div style="page-break-after: always; visibility: hidden">
 \pagebreak
@@ -51,7 +51,7 @@ Den här övningen har ingen domän. Istället fokuserar den på detaljer i klas
 
 ### Lösningsförslag övning 2
 
-![](exercise_2_proposal.png)
+![](class_diagram_exercise_2_proposal.png)
 
 <div style="page-break-after: always; visibility: hidden">
 \pagebreak
@@ -73,7 +73,7 @@ När kunden ska boka en plats på en flight anger hen vilken flight de vill åka
 
 # Lösningsförslag övning 3
 
-![](exercise_3_proposal.png)
+![](class_diagram_exercise_3_proposal.png)
 
 Kommentarer:
 * Baserat på de krav som finns i beskrivningen kunde både Customer och Airline varit strängar istället för egna klasser i diagramet. De innehåller trots allt bara property:n namn som i båda fallen är en sträng. Det är dock nästan alltid en god idé att skapa upp namngivna objekt för objekt som finns i domänen. Dels kan det i framtiden dyka upp behov av att ha flera fält och både metod- och metodsignaturer blir lättare att läsa om parametrarna är av en namngiven typ. Jämför: myMethod("a", "b", "c") med myMethod(customer, airline, seat).
