@@ -20,7 +20,7 @@ Alla djur kan sova och äta. Besökarna tillåts även klappa de växtätande dj
 \pagebreak
 </div>
 
-### Svar övning 1
+### Lösningsförslag övning 1
 
 ![](exercise_1_proposal.png)
 
@@ -49,7 +49,7 @@ Den här övningen har ingen domän. Istället fokuserar den på detaljer i klas
 \pagebreak
 </div>
 
-### Svar övning 2
+### Lösningsförslag övning 2
 
 ![](exercise_2_proposal.png)
 
@@ -71,7 +71,7 @@ När kunden ska boka en plats på en flight anger hen vilken flight de vill åka
 \pagebreak
 </div>
 
-# Svar övning 3
+# Lösningsförslag övning 3
 
 ![](exercise_3_proposal.png)
 
