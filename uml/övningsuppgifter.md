@@ -46,9 +46,9 @@ Domänen in den här uppgiften är ett flygbiljettbokningssystem. En kund ska ku
 
 När kunden söker efter en flight ska en stad från vilken kunden vill resa anges. Kunden ska få en lista med möjliga flights tillbaka. Om en flight är fullbokad ska den inte vara med i listan. Listan ska vara sorterad efter destinationens betyg. På en flight ska det vara möjligt att se flight-nummer och vilket flygbolag flighten tillhör.
 
-När kunden ska boka en plats på en flight anger hen vilken flight de vill åka med samt information om sig själv. Om bokningen går igenom får kunden en referens till bokningen som en bekräftelse. Bokningen kopplas även samman med den flight den här till.
+När kunden ska boka en plats på en flight anger hen vilken flight de vill åka med samt information om sig själv. Om bokningen går igenom får kunden en referens till bokningen som en bekräftelse. Bokningen kopplas även samman med den flight den hör till.
 
-Tips! Det är tillåtet att lägga till klasser i diagrammet som inte direkt omnämns i texten. Titta på de metoder som du lagt till i diagrammet och tänkt igenom vilken information du skulle behöva ha tillgång till för att implementera metoden.
+*Tips!* Det är tillåtet att lägga till klasser i diagrammet som inte direkt omnämns i texten. Titta på de metoder som du lagt till i diagrammet och tänkt igenom vilken information du skulle behöva ha tillgång till för att implementera metoden.
 
 <div style="page-break-after: always; visibility: hidden">
 \pagebreak
@@ -56,7 +56,7 @@ Tips! Det är tillåtet att lägga till klasser i diagrammet som inte direkt omn
 
 # Svar övning 3
 
-TODO
+![](exercise_3_proposal.png)
 
 Kommentarer:
-* Baserat på de krav som finns i beskrivningen kunde både Customer och Airline varit strängar istället för egna klasser i diagramet. De innehåller trots allt bara varit namn som är en sträng. Det är dock nästan alltid en god idé att skapa upp namngivna objekt för
+* Baserat på de krav som finns i beskrivningen kunde både Customer och Airline varit strängar istället för egna klasser i diagramet. De innehåller trots allt bara property:n namn som i båda fallen är en sträng. Det är dock nästan alltid en god idé att skapa upp namngivna objekt för
